@@ -22,7 +22,6 @@ for (const item of square) {
   }
 boardArray[index]=currentTurn
 
-console.log(boardArray[index]);
 
 
     let squarecontent=document.querySelector(`.square[value="${value}"]`)
