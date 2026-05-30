@@ -51,7 +51,7 @@ function evaluationboard() {
         var winner=currentTurn
         gameisfinshed=true
         
-        alertify.alert(`${winner} is won!`)
+        alert(`${winner} is won!`)
     }}
  let isdraw=true
  for (const square of boardArray) {
